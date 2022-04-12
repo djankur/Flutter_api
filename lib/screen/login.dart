@@ -123,7 +123,7 @@ class _LoginState extends State<Login> {
               ),
               ElevatedButton(
                 onPressed: () {
-                  Navigator.pop(context,
+                  Navigator.push(context,
                       MaterialPageRoute(builder: (builder) => Signup()));
                 },
                 child: Text("Sign Up"),
